@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>猜數字</title>
+    <link href="guess_num.css" type="text/css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+</head>
+<body>
+    <script src="guess_num.js"></script>
+    <div id="app">
+    <table>
+        <thead>
+            <tr>
+                <th colspan="3">猜數字!</th>
+            </tr>
+            <tr>
+                <th colspan="3"><textarea readonly id="screen">請輸入數字</textarea></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><button onclick="input_number_num7()">7</button></td>
+                <td><button onclick="input_number_num8()">8</button></td>
+                <td><button onclick="input_number_num9()">9</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="input_number_num4()">4</button></td>
+                <td><button onclick="input_number_num5()">5</button></td>
+                <td><button onclick="input_number_num6()">6</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="input_number_num1()">1</button></td>
+                <td><button onclick="input_number_num2()">2</button></td>
+                <td><button onclick="input_number_num3()">3</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="input_number_num0()">0</button></td>
+                <td colspan="2" onclick="enter()"><button>enter</button></td>
+            </tr>
+        </tbody>
+    </table>
+    </div>
+    <div id="footer">
+        <p>2017.09.04更新</p>
+    </div>
+    
+</body>
+</html>
