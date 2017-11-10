@@ -1,7 +1,7 @@
-//@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+/*@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);*/
 body {
   padding-top: 5rem;
-    font-family: 'Noto Sans TC','Noto Sans CJK TC','Microsoft Jhenghei',sans-serif;
+    font-family: 'Noto Sans TC','Noto Sans CJK TC','Microsoft JhengHei',sans-serif;
 }
 .starter-template {
   padding: 3rem 1.5rem;
