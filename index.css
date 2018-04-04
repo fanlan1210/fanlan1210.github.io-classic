@@ -1,7 +1,7 @@
-/*@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);*/
+
 body {
   padding-top: 5rem;
-    font-family: 'Noto Sans TC','Noto Sans CJK TC','Microsoft JhengHei',sans-serif;
+    font-family: "source-han-sans-traditional",'Noto Sans CJK TC','Microsoft JhengHei',sans-serif;
 }
 .starter-template {
   padding: 3rem 1.5rem;
@@ -12,5 +12,4 @@ body nav {
 }
 #cpp {
     color:rgb(50, 117, 100);
-    image
 }
