@@ -9,80 +9,60 @@
         <!--link rel="icon" href="https://getbootstrap.com/favicon.ico"-->
         <title>Fanlan's Website</title>
 
-    <!-- Materialize core CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- Custom styles for this template -->
-    <style>
-        body {
-    font-family: "source-han-sans-traditional",'Noto Sans CJK TC','Microsoft JhengHei',sans-serif;
-        }
-    </style>
+    <link href="../index.css" rel="stylesheet">
   </head>
-  <body class="grey darken-4">
+  <body>
       <header>
-        <!-- Dropdown Structure -->
-        <ul id="dropdown1" class="dropdown-content">
-            <li><a class="dropdown-item" href="diary.html">日常</a></li>
-            <li><a class="dropdown-item" href="./pixelmon_mod.html">模組</a></li>
-            <li><a class="dropdown-item" href="./new_mods_play.html">新模組</a></li>
-            <li><a class="dropdown-item disabled" href="./spigot.html">開放插件</a></li>
-            <li><a class="dropdown-item" href="pvp.html">PvP</a></li>
-        </ul>
-        <div class="navbar-fixed">
-            <nav>
-                <div class="nav-wrapper green">
-                    <a class="brand-logo" href="../index.html">Fanlan's Website</a>
-                    <ul id="nav-mobile" class="right hide-on-med-and-down">
-                        <li><a class="dropdown-trigger"  href="#!" data-target="dropdown1">Minecraft<i class="material-icons right">arrow_drop_down</i></a></li>
-                    </ul>
+        <nav class="navbar navbar-expand-md navbar-light fixed-top">
+          <a class="navbar-brand" href="../index.html">Fanlan's Website</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav mr-auto">
+              <!--<li class="nav-item active">
+                <a class="nav-link" href="http://fanlan.pancakeapps.com">首頁<span class="sr-only">(current)</span></a>
+              </li>-->
+              <li class="nav-item">
+                <a class="nav-link" href="http://fanlan.pancakeapps.com/index.txt">舊臨時首頁</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#">敬請期待</a>
+              </li>
+                <div class="btn-group">
+                    <li>
+                        <a class="nav-link active" href="index.html">Minecraft</a>
+                    </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle dropdown-toggle-split active" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
+                    <div class="dropdown-menu" aria-labelledby="dropdown01">
+                      <a class="dropdown-item" href="diary.html">日常</a>
+                      <a class="dropdown-item" href="#">模組</a>
+                      <a class="dropdown-item" href="pvp.html">PvP</a>
+                    </div>
+                </li>
                 </div>
-            </nav>
-        </div>
+            </ul>
+            <!-- <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form> -->
+          </div>
+        </nav>
       </header>
       <section>
-            <div id="index-banner" class="parallax-container">
-                <div class="section no-pad-bot">
-                  <div class="container" style="background-color: rgba(255,255,255,0.75); ">
-                    <br><br>
-                    <h1 class="header center">Minecraft</h1>
-                    <div class="row center">
-                      <h3 class="header col s12 grey-text">New Mods Play</h3>
-                      <h5 class="header col s12 grey-text text-darken-1">每週五8點半~10點</h5>
-                    </div>
-                    <br><br>
-                  </div>
-                </div>
-                <div class="parallax"><img src="https://i.imgur.com/9VLYyuL.jpg" alt="Unsplashed background img 1"></div>
-            </div>
-          <div class="container">
-            <div class="section">
-              <!--   Icon Section   -->
-              <div class="row">
-                <div class="col s12">
-                  <div class="icon-block">
-                    <h4 class="center white-text"><i class="material-icons">insert_chart</i>模組包資訊</h4>
-                    <div class="video-container">
-                        <iframe height="720" aria-label="Spreadsheet" frameborder="0" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTuLUsiDA0UChjTAgK9dPjt5Wb0XquXrXbDLJcvch1eEjYyLZq_FMYTXQIC2JHBPywbjmOyle_9xzV4/pubhtml?widget=true&amp;headers=false#gid=16382045"></iframe>
-                    </div>
-                  </div>
-                </div>
-
+          <div class="jumbotron">
+              <div class="text-center">
+                  <h1 class="display-1">Minecraft</h1>
+                  <hr class="my-2">
+                  <h2>New Mods Play</h2>
+                  <h3><span class="badge badge-light">每週五8點半~10點</span></h3>
               </div>
-
-            </div>
           </div>
-           <div class="parallax-container valign-wrapper">
-                <div class="section no-pad-bot">
-                  <div class="container">
-                    <div class="row center">
-                      <h5 class="header col s12 light white-text">Coming soon...</h5>
-                    </div>
-                  </div>
-                </div>
-                <div class="parallax"><img src="https://wiki.micdoodle8.com/images/thumb/b/b7/Beam_Reflector_01.png/800px-Beam_Reflector_01.png" alt="Unsplashed background img 2"></div>
-            </div>
-          <!--div class="container">
+          <div class="container">
               <div class="row">
                   <h1>推薦啟動器:<a href="https://app.twitch.tv" target="_blank">Twitch APP</a>\<a href="https://multimc.org" target="_blank">MultiMC</a></h1>
               </div>
@@ -153,17 +133,17 @@
                           </div>
                       </div>
                   </div>
+
               </div>   
-          </div-->
+          </div>
       </section>
       <footer class="container">
           <div class="row">
               <!-- 頁尾保留 -->
           </div>
       </footer>
-      <!-- Materialize Optimized JS -->
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js">
-      </script>
-      <script>M.AutoInit();</script>
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
