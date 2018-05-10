@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!-- saved from url=(0060)https://getbootstrap.com/docs/4.0/examples/starter-template/ -->
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -15,7 +14,11 @@
     <!-- Custom styles for this template -->
     <style>
         body {
-    font-family: "source-han-sans-traditional",'Noto Sans CJK TC','Microsoft JhengHei',sans-serif;
+            font-family: "source-han-sans-traditional",'Noto Sans CJK TC','Microsoft JhengHei',sans-serif;
+            color:white;
+        }
+        .parallax-container .section {
+            width: 100%;
         }
     </style>
   </head>
@@ -29,11 +32,29 @@
             <li><a class="dropdown-item disabled" href="./spigot.html">開放插件</a></li>
             <li><a class="dropdown-item" href="pvp.html">PvP</a></li>
         </ul>
+        <!-- Modal Structure -->
+          <div id="modal1" class="modal">
+            <div class="modal-content black-text">
+              <h4>[版本遷移公告]歡迎來到1.12.2版 新模組!</h4>
+              <p>如果您是從1.10.2過來的玩家，請注意以下幾點事項:</p>
+                <ul>
+                    <li>記得下載新版(2.0版)模組包</li>
+                    <li>將新版模組包內附的地圖遷移至舊版(1.10.2)，比對遺失的物品或方塊</li>
+                    <li>比對完成後，列為清單告訴管理員</li>
+                </ul>
+              <p>感謝合作!</p>
+            </div>
+            <div class="modal-footer">
+              <a href="#!" class="modal-close waves-effect waves-green btn-flat">確認</a>
+            </div>
+          </div>
         <div class="navbar-fixed">
             <nav>
                 <div class="nav-wrapper green">
                     <a class="brand-logo" href="../index.html">Fanlan's Website</a>
                     <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <!-- Modal Trigger -->
+                        <li><a class="waves-effect waves-light btn-flat blue white-text modal-trigger" href="#modal1">1.10→1.12</a></li>
                         <li><a class="dropdown-trigger"  href="#!" data-target="dropdown1">Minecraft<i class="material-icons right">arrow_drop_down</i></a></li>
                     </ul>
                 </div>
@@ -45,7 +66,8 @@
                 <div class="section no-pad-bot">
                   <div class="container" style="background-color: rgba(255,255,255,0.75); ">
                     <br><br>
-                    <h1 class="header center">Minecraft</h1>
+                    <h1 class="header center black-text">Minecraft</h1>
+                      <div class="divider"></div>
                     <div class="row center">
                       <h3 class="header col s12 grey-text">New Mods Play</h3>
                       <h5 class="header col s12 grey-text text-darken-1">每週五8點半~10點</h5>
@@ -59,15 +81,25 @@
             <div class="section">
               <!--   Icon Section   -->
               <div class="row">
-                <div class="col s12">
-                  <div class="icon-block">
-                    <h4 class="center white-text"><i class="material-icons">insert_chart</i>模組包資訊</h4>
+                  <h3 class="center white-text"><i class="material-icons">insert_chart</i>模組包資訊<a href="https://docs.google.com/spreadsheets/d/1Da1RRAJv2-sY1KwlaTFVOosmS4ZD6Z121CPq-5ap7pU/edit?usp=sharing#gid=16382045" target="_blank" class="waves-effect btn-flat btn-small grey lighten-2">完整版</a></h3>
+                <div class="col s12 m10">
                     <div class="video-container">
                         <iframe height="720" aria-label="Spreadsheet" frameborder="0" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTuLUsiDA0UChjTAgK9dPjt5Wb0XquXrXbDLJcvch1eEjYyLZq_FMYTXQIC2JHBPywbjmOyle_9xzV4/pubhtml?widget=true&amp;headers=false#gid=16382045"></iframe>
                     </div>
-                  </div>
                 </div>
-
+                  <div class="col s12 m2 center">
+                    <h3 class="header">記憶體最大使用量</h3>
+                      <h4 class="grey-text lighten-5">標準</h4>
+                      <ul>
+                          <li>最小:2.5G</li>
+                          <li>建議:3G</li>
+                      </ul>
+                      <h4 class="grey-text lighten-5">最佳化</h4>
+                      <ul>
+                          <li>最小:2G</li>
+                          <li>建議:2.5G</li>
+                      </ul>
+                </div>
               </div>
 
             </div>
@@ -76,86 +108,80 @@
                 <div class="section no-pad-bot">
                   <div class="container">
                     <div class="row center">
-                      <h5 class="header col s12 light white-text">Coming soon...</h5>
+                      <h5 class="header col s12 light white-text">共同主模組:<br>太空競賽—Galacticraft<br>殖民地—Minecolonies</h5>
                     </div>
                   </div>
                 </div>
                 <div class="parallax"><img src="https://wiki.micdoodle8.com/images/thumb/b/b7/Beam_Reflector_01.png/800px-Beam_Reflector_01.png" alt="Unsplashed background img 2"></div>
             </div>
-          <!--div class="container">
-              <div class="row">
-                  <h1>推薦啟動器:<a href="https://app.twitch.tv" target="_blank">Twitch APP</a>\<a href="https://multimc.org" target="_blank">MultiMC</a></h1>
-              </div>
-              <div class="row">
-                  <div class="col-md">
-                      <p class="h2">模組包資訊<small class="text-muted"><a href="https://docs.google.com/spreadsheets/d/1Da1RRAJv2-sY1KwlaTFVOosmS4ZD6Z121CPq-5ap7pU/edit?usp=sharing" target="_blank" class="badge badge-secondary">完整版</a></small></p>
-                      <iframe height="720" aria-label="Spreadsheet" class="w-100 embed-responsive-item" frameborder="0" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTuLUsiDA0UChjTAgK9dPjt5Wb0XquXrXbDLJcvch1eEjYyLZq_FMYTXQIC2JHBPywbjmOyle_9xzV4/pubhtml?widget=true&amp;headers=false"></iframe>
-                      <p class="h2">記憶體最大使用量</p>
-                      <h4 class="text-muted">標準</h4>
-                      <ul>
-                          <li>最小:2G</li>
-                          <li>建議:2.5G</li>
-                      </ul>
-                      <h4 class="text-muted">最佳化</h4>
-                      <ul>
-                          <li>最小:1.5G</li>
-                          <li>建議:2G</li>
-                      </ul>
+          <div class="container">
+        <div class="section">
+
+          <div class="row">
+            <div class="col s12 m4">
+              <h3 class="header">模組包安裝步驟<span class="badge red white-text">重要</span></h3>
+                  <h4 class="grey-text lighten-5">使用Twitch APP</h4>
+                      <ol>
+                          <li>安裝新啟動器並登入</li>
+                          <li>進入Mods模組頁面，點選第一個"Minecraft"</li>
+                          <li>點選其中的"創建自訂設定檔"，並匯入模組包檔案</li>
+                          <li>安裝完畢後，點選右上角頭像，進入"設定"</li>
+                          <li>在"Minecraft"中的"Java"選項中，適量調整記憶體，點選完成</li>
+                          <li>按啟動鍵，開玩!</li>
+                      </ol>
+                  <h4 class="grey-text lighten-5">使用MultiMC</h4>
+                    <ol>
+                        <li>安裝並新啟動器並登入</li>
+                        <li>將模組包檔案拖進啟動器視窗</li>
+                        <li>依指示設定</li>
+                        <li>按啟動鍵，開玩!</li>
+                    </ol>
+                  <h4 class="grey-text lighten-5">手動</h4>
+                    <ul>
+                        <li>你懂得😏</li>
+                    </ul>
+            </div>
+            <div class="col s12 m4">
+              <h3 class="header">新增可選及額外模組<span class="badge cyan white-text">可選</span></h3>
+                  <h6 class="grey-text lighten-4">請勿選擇與模組包伺服器不相容的模組!</h6>
+                    <h4 class="grey-text lighten-5">從App自動安裝</h4>
+                        <ul>
+                            <li>點選設定檔本身(先不要點啟動鍵)</li>
+                            <li>點選"取得更多內容"，搜尋欲新增的模組</li>
+                            <li>點選"安裝"即可!</li>
+                        </ul>
+                    <h4 class="grey-text lighten-5">手動新增</h4>
+                        <ul>
+                            <li>點選"..."(在"取得更多內容"右邊)</li>
+                            <li>點選"開啟資料夾"</li>
+                            <li>開啟mods資料夾，加入額外必須及可選的模組</li>
+                        </ul>
+            </div>
+            <div class="col s12 m4">
+                <div class="row">
+                  <h3 class="header">資源連結</h3>
+                  <div class="card-action">
+                      <a href="https://www.dropbox.com/sh/7luzmsgwqeylgl2/AAB0Fx_u6fl9uCp9nws8Qarga?dl=0" class="card-link" target="_blank">模組包檔案下載(適用於推薦啟動器)</a>
                   </div>
-                  <div class="col-md">
-                      <div class="card">
-                          <div class="card-body">
-                              <h2 class="card-title">模組包安裝步驟<span class="badge badge-danger">重要</span></h2>
-                              <h4 class="card-subtitle mb-2 text-muted">使用Twitch APP</h4>
-                                  <ol>
-                                      <li>安裝新啟動器並登入</li>
-                                      <li>進入Mods模組頁面，點選第一個"Minecraft"</li>
-                                      <li>點選其中的"創建自訂設定檔"，並匯入模組包檔案</li>
-                                      <li>安裝完畢後，點選右上角頭像，進入"設定"</li>
-                                      <li>在"Minecraft"中的"Java"選項中，適量調整記憶體，點選完成</li>
-                                      <li>按啟動鍵，開玩!</li>
-                                  </ol>
-                              <h4 class="card-subtitle mb-2 text-muted">使用MultiMC</h4>
-                                <ol>
-                                    <li>安裝並新啟動器並登入</li>
-                                    <li>將模組包檔案拖進啟動器視窗</li>
-                                    <li>依指示設定</li>
-                                    <li>按啟動鍵，開玩!</li>
-                                </ol>
-                              <h4 class="card-subtitle mb-2 text-muted">手動</h4>
-                                <ul>
-                                    <li>你懂得😏</li>
-                                </ul>
-                          </div>
-                      </div>
-                      <div class="card">
-                          <div class="card-body">
-                              <h2 class="card-title">新增可選及額外模組<span class="badge badge-info">可選</span></h2>
-                              <h4 class="card-subtitle mb-2 text-muted">請勿選擇與模組包伺服器不相容的模組!</h4>
-                                <h5>從App自動安裝</h5>
-                                    <ul>
-                                        <li>點選設定檔本身(先不要點啟動鍵)</li>
-                                        <li>點選"取得更多內容"，搜尋欲新增的模組</li>
-                                        <li>點選"安裝"即可!</li>
-                                    </ul>
-                                <h5>手動新增</h5>
-                                    <ul>
-                                        <li>點選"..."(在"取得更多內容"右邊)</li>
-                                        <li>點選"開啟資料夾"</li>
-                                        <li>開啟mods資料夾，加入額外必須及可選的模組</li>
-                                    </ul>
-                          </div>
-                      </div>
-                      <div class="card">
-                          <div class="card-body">
-                              <h2 class="card-title">資源連結</h2>
-                                  <a href="https://www.dropbox.com/sh/7luzmsgwqeylgl2/AAB0Fx_u6fl9uCp9nws8Qarga?dl=0" class="card-link" target="_blank">模組包檔案下載(適用於推薦啟動器)</a>
-                          </div>
-                      </div>
-                  </div>
-              </div>   
-          </div-->
+                </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="parallax-container valign-wrapper">
+        <div class="section no-pad-bot">
+          <div class="container">
+            <div class="row center">
+              <h5 class="header col s12 light white-text">更多內容即將推出...</h5>
+            </div>
+          </div>
+        </div>
+        <div class="parallax"><img src="https://wiki.minecolonies.com/images/e/e6/Town_Hall.png" alt="Unsplashed background img 3"></div>
+      </div>
       </section>
+      
       <footer class="container">
           <div class="row">
               <!-- 頁尾保留 -->
