@@ -1,116 +1,94 @@
 <!DOCTYPE html>
-<!-- saved from url=(0060)https://getbootstrap.com/docs/4.0/examples/starter-template/ -->
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta name="description" content="">
         <meta name="author" content="">
-        <!--link rel="icon" href="https://getbootstrap.com/favicon.ico"-->
         <title>Fanlan's Website</title>
 
-    <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-    <!-- Custom styles for this template -->
-    <link href="index.css" rel="stylesheet">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <!-- Custom styles for this template -->
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <link href="index.css" rel="stylesheet">
   </head>
-  <body>
+  <body id="cover">
       <header>
-        <nav class="navbar navbar-expand-md navbar-light fixed-top">
-          <a class="navbar-brand" href="./index.html">Fanlan's Website</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-            <ul class="navbar-nav mr-auto">
-              <!--<li class="nav-item active">
-                <a class="nav-link" href="http://fanlan.pancakeapps.com">首頁<span class="sr-only">(current)</span></a>
-              </li>-->
+        <nav class="navbar navbar-expand navbar-dark fixed-top">
+            <ul class="navbar-nav ml-auto"> 
               <li class="nav-item">
-                <a class="nav-link" href="http://fanlan.pancakeapps.com/">舊臨時首頁</a>
+                <a class="nav-link" href="./index_old.html">舊版首頁</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="./blog">Blog</a>
               </li>
-                
             </ul>
-            <!-- <form class="form-inline my-2 my-lg-0">
-              <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form> -->
-          </div>
+            
         </nav>
       </header>
+    
       <section>
-          <div class="jumbotron">
-              <div class="container-fluid text-center">
-                  <div class="row">
-                      <div class="col-md">
-                          <h2 class="display-3">Bootstrap</h2>
-                          <p class="lead">使網頁設計更加簡單</p>
-                          <hr class="my-4">
-                          <p class="lead"><a class="btn btn-success btn-md" href="https://getbootstrap.com/" role="button">前往官網</a></p>
-                      </div>
-                      <div class="col-md">
-                          <h2 class="display-3">Github Pages</h2>
-                          <!--h3>github.io</h3-->
-                          <p class="lead">網頁託管提供</p>
-                          <hr class="my-4">
-                          <p class="lead"><a class="btn btn-success btn-md" href="https://github.io/" role="button">前往官網</a></p>
-                      </div>
-                  </div>
-                </div>
-          </div>
-      </section>
-      <section class="container">
-          <div class="row">
-              <div class="card col-lg col-sm-12">
-                <div class="card-body">
-                    <h4 class="card-title">程式</h4>
-                    <h6 class="card-subtitle mb-2 text-muted">小遊戲與其他小東西</h6>
-                    <p class="card-text">Web(HTML&amp;CSS&amp;JS)</p>
-                    <a href="Programs/rps.html" class="card-link">剪刀石頭布</a>
-                    <a href="Programs/guess_number/guess_num.html" class="card-link">猜數字</a>
-                    <hr class="my-6">
-                    <p class="card-text">RPG Maker MV</p>
-                    <a href="https://fanlan1210.github.io/CIMTWinterCamp2018_RPG" class="card-link" target="_blank">2018寒訓—第四小隊</a>
-                </div>
-              </div>
-              <div class="card col-lg-3 col-sm-12">
-                <div class="card-body">
-                    <h4 class="card-title">我的動態網站</h4>
-                    <h6 class="card-subtitle mb-2 text-muted">PHP</h6>
-                    <a href="http://163.23.148.69/~fanlan/" class="btn btn-primary">前往</a>
-                </div>
-              </div>
-              <div class="card col-lg-4 col-sm-12">
-                <div class="card-body">
-                    <h4 class="card-title">其他</h4>
-                    <h6 class="card-subtitle mb-2 text-muted">我在其他網站的蹤跡</h6>
-                    <a class="card-link" href="https://fanlan1210.github.io/aboutme" target="_blank">關於我</a>
-                    <hr class="my-6">
-                    <a class="card-link" href="https://www.gitbook.com/book/fanlan1210/arch-linux-installation-guide" target="_blank">Arch Linux安裝指南</a>
-                    <!--a href="#" class="card-link disabled">前往</a-->
-                </div>
+          <div class="container text-light">
+            <div class="row h-100 align-items-center">
+              <div class="col text-center">
+                <h2 class="">Hi, I am Fanlan.</h2>
+                <p id="stu">一個目前就讀資工系的大學生</p>
+                <p id="group">會在社群裡出沒</p>
+                <p id="skill">文組專長（？）</p>
+                <p id="more"><a href="aboutme">了解更多</a></p>
               </div>
             </div>
-          <div class="row mb-1">
-              <div class="col">
-                  <p class="h1">好站連結</p>
-                  <div class="list-group">
-                      <a href="http://163.23.148.69/~pudding" class="list-group-item list-group-item-action h2 text-center" target="_blank">🍮布丁的網站🍮</a>
-                      <a href="http://163.23.148.69/~qaz5823091" class="list-group-item list-group-item-action h2 text-center" id="cpp" target="_blank"><img src="files/rubiks-cube-157058.svg" height="32">羲加加的網站<img src="files/rubiks-cube-157058.svg" height="32"></a>
-                  </div>
-              </div>
           </div>
       </section>
-      <footer class="container">
-          <div class="row">
-              <!-- 頁尾保留 -->
+      <section>
+        <div class="container">
+          <div class="row h-100  align-items-center justify-content-center">
+              <div class="card col-sm-5 mx-1">
+                <div class="card-body">
+                    <h4 class="card-title">原創專案</h4>
+                    <h6 class="card-subtitle mb-2 text-white-50">（由新到舊）</h6>
+                    <p class="card-text">
+                      <a href="https://github.com/fanlan1210/cac-apply-query" target="_blank">申請入學榜單查詢爬蟲</a>
+                    </p>
+                    <p class="card-text">
+                      <a href="https://github.com/fanlan1210/tcssh-attendance-record" class="" target="_blank">台中二中學生出缺席紀錄速查</a>
+                    </p>
+                    <p class="card-text">
+                      <a href="Programs/guess_number/guess_num.html" target="_blank">猜數字</a>
+                    </p>
+                </div>
+              </div>
+              <div class="card col-sm-5 mx-1">
+                <div class="card-body">
+                    <h4 class="card-title">共同協作專案</h4>
+                    <h6 class="card-subtitle mb-2 text-white-50">（由新到舊）</h6>
+                    <p class="card-text">
+                      <a href="https://github.com/LuckyPigeon/CPE_Previous_Questions" target="_blank">CPE 歷屆考題</a>
+                    </p>
+                    <p class="card-text">
+                      <a href="https://github.com/jayehernandez/letra-extension" class="" target="_blank">letra-extension: 透過開啟新分頁，學習新單字</a>
+                    </p>
+                    <p class="card-text">
+                      <a href="https://github.com/fanlan1210/MultiMC5-translate" target="_blank">MultiMC5-translate: 第三方 Minecraft 啟動器翻譯</a>
+                    </p>
+                </div>
+              </div>
           </div>
-      </footer>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+        </div>
+      </section>
+      <section>
+        <div class="container">
+          <div class="row h-100 align-items-center mb-1">
+                <div class="col">
+                    <p class="h1">友站連結</p>
+                      <a href="http://163.23.148.69/~pudding" class="btn btn-lg btn-block btn-outline-light h2 text-center" target="_blank" id="pudding">🍮布丁的網站🍮</a>
+                      <a href="https://qaz5823091.github.io" class="btn btn-lg btn-block btn-outline-light h2 text-center" id="cpp" target="_blank"><img src="files/rubiks-cube-157058.svg" height="32">羲加加的網站<img src="files/rubiks-cube-157058.svg" height="32"></a>
+                </div>
+            </div>
+        </div>
+      </section>
+    <div id="cover-overlay"></div>
+    <script src="index.js"></script>
 </body>
 </html>

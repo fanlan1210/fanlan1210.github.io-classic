@@ -1,15 +1,68 @@
-
 body {
-  padding-top: 5rem;
-    font-family: "source-han-sans-traditional",'Noto Sans CJK TC','Microsoft JhengHei',sans-serif;
+  font-family: "source-han-sans-traditional",'Noto Sans CJK TC','Microsoft JhengHei',sans-serif;
+  color: white;
 }
-.starter-template {
-  padding: 3rem 1.5rem;
-  text-align: center;
-}
+
 body nav {
-    background-color: greenyellow;
+    background-color: transparent;
 }
+
 #cpp {
-    color:rgb(50, 117, 100);
+    color: #4aac4a;
+}
+
+#pudding{
+  color: #ff9a1f;
+}
+
+#cover{
+  background-image: url(files/cover.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#cover-overlay{
+  /*background-color: rgba(0,0,0,0.5);*/
+  background-image: radial-gradient(rgba(100,100,100,0.55), rgba(0,0,0,0.75));
+  position: fixed;
+  display: block;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.card,.list-group-item {
+  background-color: transparent;
+  border-width: medium;
+  border-color: white;
+}
+
+.border-light{
+  border-width: medium;
+}
+
+html {
+  scroll-snap-type: y proximity;
+}
+
+.container {
+  scroll-snap-align: start;
+  height: 100vh;
+  width: 100vw;
+}
+
+a {
+  color: #88eb15;
+}
+
+a:hover {
+  color: #a6eb56;
+}
+
+a:checked {
+  color: #32680e;
 }
